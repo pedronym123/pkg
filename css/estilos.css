@@ -29,6 +29,7 @@ footer{
     text-align: center;
     background: #005082;
     margin: none;
+    margin-top: 50px;
 }
 .morado{
     background: #005082;
@@ -54,6 +55,9 @@ section{
 }
 body{
     background: #40bad5;
+}
+.top{
+    margin-top: 143px;
 }
 .mapa{
     margin: 20px;
@@ -97,6 +101,9 @@ body{
     background: white;
     padding: 20px;
     overflow: hidden;
+}
+.prese p{
+    text-align: justify;
 }
 .prese img{
     float: left;
@@ -365,10 +372,123 @@ body{
     color: white;
     background-image: url("../image/service3.jpg");
 }
-
-
-
-
+/* box 7 */
+.box7 .icon{
+    color: white;
+}
+.box7 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box7{
+    color: white;
+    background-image: url("../image/honestidad.jpg");
+}
+/* box 8 */
+.box8 .icon{
+    color: white;
+}
+.box8 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box8{
+    color: white;
+    background-image: url("../image/puntualidad.jpg");
+}
+/* box 9 */
+.box9 .icon{
+    color: white;
+}
+.box9 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box9{
+    color: white;
+    background-image: url("../image/responsabilidad.jpg");
+}
+/* box 10 */
+.box10 .icon{
+    color: white;
+}
+.box10 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box10{
+    color: white;
+    background-image: url("../image/dedicacion.jpg");
+}
+/* box 11 */
+.box11 .icon{
+    color: white;
+}
+.box11 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box11{
+    color: white;
+    background-image: url("../image/equipo.jpg");
+}
+/* box 12 */
+.box12 .icon{
+    color: white;
+}
+.box12 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box12{
+    color: white;
+    background-image: url("../image/innovacion.jpg");
+}
+/* box 13 */
+.box13 .icon{
+    color: white;
+}
+.box13 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box13{
+    color: white;
+    background-image: url("../image/calidad.jpg");
+}
+/* box 14 */
+.box14 .icon{
+    color: white;
+}
+.box14 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box14{
+    color: white;
+    background-image: url("../image/clienteprimero.jpg");
+}
+/* box 15 */
+.box15 .icon{
+    color: white;
+}
+.box15 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box15{
+    color: white;
+    background-image: url("../image/responsabilidad.jpg");
+}
 
 
 
