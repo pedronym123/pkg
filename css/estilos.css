@@ -464,6 +464,10 @@ body{
     background-image: url("../image/calidad.jpg");
 }
 /* box 14 */
+.box14 h4{
+    font-size: 30px;
+    transform: translateY(180px);
+}
 .box14 .icon{
     color: white;
 }
@@ -477,6 +481,10 @@ body{
     background-image: url("../image/clienteprimero.jpg");
 }
 /* box 15 */
+.box15 h4{
+    font-size: 30px;
+    transform: translateY(180px);
+}
 .box15 .icon{
     color: white;
 }
