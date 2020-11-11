@@ -313,7 +313,7 @@ body{
 .wrap{
     width: 100%;
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 ul.tabs{
     width: 100%;
