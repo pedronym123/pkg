@@ -5,6 +5,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+ul{
+    list-style: none;
+}
+p{
+    display: block;
+}
 .fondrojo{
     background: red;
 }
@@ -99,31 +105,65 @@ body{
 .imaprese{
     overflow: hidden;
 }
+.muestra{
+    display: flex;
+}
 .container{
     display: block;
     max-width: 1230px;
     margin-top: 50px;
-    
 }
-.muestra{
+.container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.quote {
+    padding: 7em 20em;
+    text-align: center;
+}
+.quote h2 {
+    color: white;
+    line-height: 2em;
+}
+.quote p {
+    color: #ffffff;
+}
+.quote a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 2.5em;
+    padding: 4px 2.5em;
+}
+.btn2{
+    background: #FDC312;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 4px 18px;
+    margin-top: 20px;
+    border-radius: 0;
     display: inline-block;
-}
-.muestra img{
-    display: block;
-}
-.muestra div{
-    display: block;
-}
-.intro{
-    display: block;
-    width: 40%;
-}
-.fondoblanco{
-    background: white;
+    -webkit-transition         : all 0.3s ease 0s;
+    -moz-transition            : all 0.3s ease 0s;
+    -o-transition              : all 0.3s ease 0s;
+    transition                 : all 0.3s ease 0s;
 }
 
+.btn2:hover, .btn-default:hover{
+    background: #3c4461;
+    color:#ffffff;
+    border-color:#3c4461 !important;
+}
 
-
+.clientes{
+    text-align: center;
+    padding: 50px 0px;
+}
 /* En el index */
 *{
     margin: 0px;
@@ -138,7 +178,6 @@ body{
 .cont-all{
     max-width: 1200px;
     margin: auto;
-    margin-bottom: 50px;
     background: white;
 }
 .cont-box{
@@ -217,8 +256,33 @@ body{
     top: -80px;
     left: -80px;
 }
-/* cambiar color de cajas */
+.razones{
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+}
+.clientes-img{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+}
+.clientes-img img{
+    margin: auto;
+}
+.partes{
+    width: 30%;
+    margin: auto;
+}
+.quote-section {
+    background: url(../image/contacto.jpg)no-repeat scroll center 0;
+    height: 400px;
+}
 
+
+/* cambiar color de cajas */
 /* box 1 */
 .box1 .icon{
     color: black;
@@ -315,6 +379,10 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.h2-wrap{
+    padding: 9px;
+    color: white;
+}
 ul.tabs{
     width: 100%;
     background: black;
@@ -350,8 +418,34 @@ ul.tabs li a .tab-text{
 }
 
 
-
-
-
-
-
+/* ****************** */
+/* FOOTER */
+/* ****************** */
+.footer-top {
+    display: flex;
+    overflow: hidden;
+    padding: 10px 0;
+    border: 1px solid rgba(0,0,0, .05);
+    border-left: 0;
+    border-right: 0;
+    text-align: justify;
+}
+.footer-top p, address {
+    font-size: .9rem;
+}
+.footer-top h4 {
+    color: black;
+    margin-bottom: 1.5em;
+}
+.news li {
+    margin-bottom: 1em;
+}
+.news p {
+    color: black;
+    margin: 0;
+    line-height: 1.5em;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
