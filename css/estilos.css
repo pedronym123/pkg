@@ -1,0 +1,265 @@
+.fondrojo{
+    background: red;
+}
+.fondo{
+    width: 100%;
+    background-color:#40bad5;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    background: #005082;
+    margin: none;
+}
+.morado{
+    background: #005082;
+}
+.nav-fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+article{
+    display: inline;
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    box-shadow: 5px solid black;
+}
+section{
+    margin: none;
+}
+.cuerpo{
+    margin: none;
+}
+body{
+    background: #40bad5;
+}
+.mapa{
+    margin: 20px;
+}
+.titunavs{
+    color: darkgray;
+}
+.clasmapa{
+    width: 47%;
+    height: auto;
+    background-color: lightgray;
+    margin: 10px;
+
+    border: 2px solid;
+    border-radius: 0px 35px 35px 35px;
+    -moz-border-radius: 0px 35px 35px 35px;
+    -webkit-border-radius: 0px 35px 35px 35px;
+    -o-border-radius: 0px 35px 35px 35px;
+
+    box-shadow: 0px 0px 20px black;
+    -moz-box-shadow: 0px 0px 20px black;
+    -webkit-box-shadow: 0px 0px 20px black;
+    -o-box-shadow: 0px 0px 20px black;
+}
+.carrletra{
+    color: black;
+}
+#menu{
+     width: 100%;
+}
+.fijo{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+.espsec{
+    margin-top: 93px;
+}
+.prese{
+    background: white;
+    padding: 20px;
+    overflow: hidden;
+}
+.prese img{
+    float: left;
+    margin-right: 20px;
+}
+.imaprese{
+    overflow: hidden;
+}
+.container{
+    display: block;
+    max-width: 1230px;
+    margin-top: 50px;
+    
+}
+.muestra{
+    display: inline-block;
+}
+.muestra img{
+    display: block;
+}
+.muestra div{
+    display: block;
+}
+.intro{
+    display: block;
+    width: 40%;
+}
+
+
+
+
+/* En el index */
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mititu{
+    text-align: center;
+    font-size: 40px;
+}
+.cont-all{
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 50px;
+    background: white;
+}
+.cont-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 360px;
+    height: 330px;
+    padding: 20px;
+    margin: 15px;
+    background: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover{
+    transform: translate(5px,-5px);
+    transition: 300ms;
+    box-shadow: -10px 10px 20px -10px rgba(8, 8, 8, 0.5);
+}
+.box .icon, .box h4, .box p{
+    position: relative;
+    z-index: 1;
+    transition: all 300ms;
+}
+
+.box .icon{
+    font-size: 40px;
+    color: rgb(18, 153, 0);
+    transform: translateY(320px);
+}
+
+.box:hover .icon{
+    color: black;
+    font-size: 30px;
+    transform: translateY(0);
+}
+.box:hover h4{
+    transform: translateY(0);
+    color: black;
+}
+.box:hover p{
+    transform: translateY(0);
+    opacity: 1;
+    color: black;
+}
+
+.box h4, .box p{
+    margin-top: 10px;
+}
+
+.box h4{
+    font-size: 30px;
+    transform: translateY(210px);
+}
+.box p{
+    font-size: 14px;
+    transform: translateY(210px);
+}
+.box .backg-hover{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    top: 250px;
+    left: -170px;
+    border-radius: 100%;
+    transition: all 300ms;
+    background: linear-gradient(to bottom,rgb(255, 136, 0),rgb(255, 0, 0));
+}
+.box:hover .backg-hover{
+    width: 520px;
+    height: 520px;
+    top: -80px;
+    left: -80px;
+}
+/* cambiar color de cajas */
+
+/* box 1 */
+.box1 .icon{
+    color: black;
+}
+.box1 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box1{
+    background-image: url("../image/pag1.jpg");
+}
+/* box 2 */
+.box2 .icon{
+    color: black;
+}
+.box2 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box2{
+    background-image: url("../image/pag2.jpg");
+}
+/* box 3 */
+.box3 .icon{
+    color: black;
+}
+.box3 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box3{
+    background-image: url("../image/pag3.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
