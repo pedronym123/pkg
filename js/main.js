@@ -1,5 +1,3 @@
-$(PKGSolutions).ready(function(){
-    var altura = $(".fijo").offset().top;
-
-    alert(altura);
+$(document).ready(function(){
+    alert("funciono");
 });

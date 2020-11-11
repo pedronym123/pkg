@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .fondrojo{
     background: red;
 }
@@ -111,7 +118,9 @@ body{
     display: block;
     width: 40%;
 }
-
+.fondoblanco{
+    background: white;
+}
 
 
 
@@ -194,7 +203,7 @@ body{
 .box .backg-hover{
     width: 100px;
     height: 100px;
-    background: red;
+    background: #FCBF1E;
     position: absolute;
     top: 250px;
     left: -170px;
@@ -220,6 +229,7 @@ body{
     left: 130px;
 }
 .box1{
+    color: black;
     background-image: url("../image/pag1.jpg");
 }
 /* box 2 */
@@ -232,6 +242,7 @@ body{
     left: 130px;
 }
 .box2{
+    color: black;
     background-image: url("../image/pag2.jpg");
 }
 /* box 3 */
@@ -244,7 +255,51 @@ body{
     left: 130px;
 }
 .box3{
+    color: black;
     background-image: url("../image/pag3.jpg");
+}
+/* box 4 */
+.box4 h4{
+    font-size: 30px;
+    transform: translateY(180px);
+}
+.box4 .icon{
+    color: white;
+}
+.box4 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box4{
+    color: white;
+    background-image: url("../image/service1.jpg");
+}
+/* box 5 */
+.box5 .icon{
+    color: white;
+}
+.box5 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box5{
+    color: white;
+    background-image: url("../image/service2.jpg");
+}
+/* box 6 */
+.box6 .icon{
+    color: white;
+}
+.box6 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box6{
+    color: white;
+    background-image: url("../image/service3.jpg");
 }
 
 
@@ -253,9 +308,46 @@ body{
 
 
 
+/* paneltab */
 
-
-
+.wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+ul.tabs{
+    width: 100%;
+    background: black;
+    list-style: none;
+    display: flex;
+}
+ul.tabs li{
+    width: 20%;
+}
+ul.tabs li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding: 20px 0px;
+}
+ul.tabs li a .tab-text{
+    margin-left: 8px;
+}
+.active2{
+    background: #0984cc
+}
+.secciones{
+    width: 100%;
+    background: white;
+}
+.secciones article{
+    padding: 30px;
+}
+.secciones article p{
+    text-align: justify;
+}
 
 
 
