@@ -8,11 +8,12 @@
 ul{
     list-style: none;
 }
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
 p{
     display: block;
-}
-.fondrojo{
-    background: red;
 }
 .fondo{
     width: 100%;
@@ -58,6 +59,9 @@ body{
 }
 .top{
     margin-top: 143px;
+}
+.top2{
+    margin-top: 50px;
 }
 .mapa{
     margin: 20px;
@@ -118,7 +122,6 @@ body{
 .container{
     display: block;
     max-width: 1230px;
-    margin-top: 50px;
 }
 .container2 {
     padding-right: 15px;
@@ -508,7 +511,7 @@ body{
     margin: 0 auto;
 }
 .h2-wrap{
-    padding: 9px;
+    padding: 10px;
     color: white;
 }
 ul.tabs{
