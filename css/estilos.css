@@ -108,6 +108,7 @@ body{
 }
 .prese p{
     text-align: justify;
+    width: 98%;
 }
 .prese img{
     float: left;
@@ -500,8 +501,40 @@ body{
     color: white;
     background-image: url("../image/responsabilidad.jpg");
 }
-
-
+/* box 16 */
+.box16 h4{
+    font-size: 30px;
+    transform: translateY(180px);
+}
+.box16 .icon{
+    color: white;
+}
+.box16 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box16{
+    color: white;
+    background-image: url("../image/service4.jpg");
+}
+/* box 17 */
+.box17 h4{
+    font-size: 30px;
+    transform: translateY(180px);
+}
+.box17 .icon{
+    color: white;
+}
+.box17 .backg-hover{
+    background: linear-gradient(to bottom,rgb(251, 255, 39),#FCBF1E);
+    top: 330px;
+    left: 130px;
+}
+.box17{
+    color: white;
+    background-image: url("../image/service5.jpg");
+}
 
 /* paneltab */
 
