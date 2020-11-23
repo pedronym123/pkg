@@ -686,3 +686,47 @@ address {
 .divicion2{
     display: block;
 }
+/* REDES */
+ul.social{
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+ul.social li:first-child{
+    margin-left: 0;
+}
+ul.social li{
+    display: inline-block;
+    margin-left: 5px;
+}
+ul.social li a{
+    margin-bottom: -50px;
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+ul.social li a i{
+    width: 45px;
+    height: 45px;
+    display: block;
+    background: url(../image/sprite.jpg) #fff no-repeat;
+    border-radius: 2em;
+    -webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    -o-border-radius: 2em;
+}
+ul.social li a i:hover{
+    opacity: 0.8;
+}
+ul.social li a i.fb{
+    background-position: -186px -12px;
+}
+ul.social li a i.ins{
+    background-position: -128px -70px;
+}
+ul.social li a i.lin{
+    background-position: -128px -12px;
+    margin-right: 20px;
+}
