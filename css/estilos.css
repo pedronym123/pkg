@@ -4,6 +4,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 ul{
     list-style: none;
@@ -176,12 +177,6 @@ body{
     padding: 50px 0px;
 }
 /* En el index */
-*{
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 .mititu{
     text-align: center;
     font-size: 40px;
@@ -248,7 +243,7 @@ body{
 }
 .box p{
     font-size: 14px;
-    transform: translateY(210px);
+    transform: translateY(260px);
 }
 .box .backg-hover{
     width: 100px;
@@ -266,13 +261,6 @@ body{
     height: 520px;
     top: -80px;
     left: -80px;
-}
-.razones{
-    padding: 100px;
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    width: 80%;
 }
 .clientes-img{
     margin: auto;
@@ -336,7 +324,7 @@ body{
 /* box 4 */
 .box4 h4{
     font-size: 30px;
-    transform: translateY(180px);
+    transform: translateY(175px);
 }
 .box4 .icon{
     color: white;
@@ -470,7 +458,7 @@ body{
 /* box 14 */
 .box14 h4{
     font-size: 30px;
-    transform: translateY(180px);
+    transform: translateY(175px);
 }
 .box14 .icon{
     color: white;
@@ -487,7 +475,7 @@ body{
 /* box 15 */
 .box15 h4{
     font-size: 30px;
-    transform: translateY(180px);
+    transform: translateY(175px);
 }
 .box15 .icon{
     color: white;
@@ -504,7 +492,7 @@ body{
 /* box 16 */
 .box16 h4{
     font-size: 30px;
-    transform: translateY(180px);
+    transform: translateY(175px);
 }
 .box16 .icon{
     color: white;
@@ -521,7 +509,7 @@ body{
 /* box 17 */
 .box17 h4{
     font-size: 30px;
-    transform: translateY(180px);
+    transform: translateY(175px);
 }
 .box17 .icon{
     color: white;
@@ -546,6 +534,7 @@ body{
 .h2-wrap{
     padding: 10px;
     color: white;
+    margin: auto 20px;
 }
 ul.tabs{
     width: 100%;
@@ -729,4 +718,31 @@ ul.social li a i.ins{
 ul.social li a i.lin{
     background-position: -128px -12px;
     margin-right: 20px;
+}
+/* RAZONES */
+.razones{
+    padding: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 80%;
+}
+.activity-list {
+    overflow: hidden;
+}
+.activity-icon {
+    float: left;
+    width: 17%;
+    padding-right: 1.5em;
+    text-align: center;
+}
+.activity-details {
+    float: right;
+    width: 83%;
+}
+.activity-icon i {
+    background: #fdc312;
+    padding: 0.52em;
+    font-size: 1.5rem;
+    color: #ffffff;
 }
